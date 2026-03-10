@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.products {
+  background-color: rgb(252, 243, 243);
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.blockImage {
+  background-color: rgb(160, 25, 144);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.blockImage img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.textDetails {
+  background-color: rgb(236, 14, 14);
+  color: white;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  height: 600px;
+  width: 400px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.textDetails h1 {
+  margin: 0;
+}
+
+.textDetails p {
+  margin: 0;
+}
+
+.name {
+  background-color: rgb(107, 165, 217);
+  height: 100px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.productinfo {
+  background-color: aliceblue;
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+}
+.price {
+  background-color: blueviolet;
+    height: 50px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.askrequest {
+  background-color: aqua;
+}
+
+.askrequest button {
+background-color: blue;
+     height: 40px;
+  width: 100px;
+  border-radius: 10px;
+}

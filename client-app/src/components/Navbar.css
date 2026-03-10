@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: rgb(222, 79, 189);
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1780px;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+}

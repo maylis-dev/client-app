@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.containerAbout {
+  background-color: rgb(244, 240, 240);
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.blocksinfo {
+  background-color: rgb(215, 37, 37);
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  height: 150px;
+}
+
+.photo {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.info {
+  background-color: blue;
+  width: 500px;
+  height: 100px;
+}
+
+.mydolls {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: fit-content; /* shrink to content width */
+  margin: 0 auto; /* center the whole row */
+  height: 350px; /* row height */
+}
+
+.requestlist {
+  background-color: orange;
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.mydollslist {
+  background-color: aqua;
+  width: 250px; /* smaller block */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center; /* center children horizontally */
+  justify-content: flex-start; /* buttons stay at top */
+  border-radius: 15px;
+}
+
+.editDolls {
+  background-color: blue;
+  height: 40px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center; /* center buttons horizontally */
+  width: 100%;
+}
+
+.myCreation {
+  background-color: blanchedalmond;
+  width: 190px; /* same as mydollslist */
+  height: 250px; /* smaller than requestlist */
+  border-radius: 15px;
+
+}
