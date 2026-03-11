@@ -13,7 +13,7 @@ import Loginpage from "./pages/Loginpage";
 import Signuppage from "./pages/Signuppage";
 import Requestpage from "./pages/Requestpage";
 import Navbar from "./components/Navbar";
-import CreateProducts from "./pages/createProduct";
+import CreateProduct from "./pages/CreateProduct";
 import { AuthWrapper } from "./context/auth.context";
 import EditProductsPage from "./pages/EditProduct";
 import Bratzpage from "./pages/Bratzpage";
@@ -41,7 +41,7 @@ function App() {
         <Route path="/request" element={<Requestpage />} />
        <Route path="/edit-product/:id" element={<EditProductsPage />} />
        
-        <Route path="/post-products" element={<CreateProducts />} />
+       <Route path="/post-products" element={<CreateProduct />} />
       </Routes>
       <footer/>
     </>
