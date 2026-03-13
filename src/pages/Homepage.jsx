@@ -44,9 +44,9 @@ function Homepage() {
           </div>
 
           <div className="text">
-            <Link to="/about" className="ctaLink">
+         
               <h1 className="ctaButton">become a seller</h1>
-            </Link>
+          
 
             <h1 className="ctaButton">become a buyer</h1>
           </div>

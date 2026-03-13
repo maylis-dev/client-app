@@ -66,8 +66,8 @@ function CreateProducts() {
     // uploader.single("image")
 
     try {
-      const response = await axios.post(
-        "http://localhost:5003/api/upload",
+      const response = await service.post(
+        "/upload",
         uploadData,
         
       );
